@@ -1,0 +1,231 @@
+{
+  "workbench.colorTheme": "SynthWave '84",
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.labelFormat": "default",
+  "workbench.editor.untitled.labelFormat": "name",
+  "synthwave84.brightness": 1,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": false, // temporarily turning this off - some files look better without the semantic overrides and with just the original syntax coloring
+    "[SynthWave '84]": {
+      "rules": {
+        "parameter": {
+          "foreground": "#f6ec9d",
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "strikethrough": false
+        },
+        "variable": {
+          "foreground": "#80f0fc",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false
+        },
+        "property": "#80f0fc"
+      }
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[SynthWave '84]": {
+      "editor.background": "#000040",
+      "minimap.background": "#222",
+      "panel.background": "#000f49",
+      "breadcrumb.background": "#231932",
+      "breadcrumb.foreground": "#FF8",
+      "breadcrumb.focusForeground": "#0FF",
+      "breadcrumb.activeSelectionForeground": "#9F9",
+      "editorGutter.modifiedBackground": "#0FF",
+      "editorGutter.deletedBackground": "#F55",
+      "editorGutter.addedBackground": "#FF0",
+      "editorLineNumber.activeForeground": "#9F9",
+      "editorLineNumber.foreground": "#0FF",
+      "widget.shadow": "#0FF",
+      "editor.findMatchBackground": "#f5a3ffcc",
+      "editor.findMatchBorder": "#fbff00",
+      "editor.findMatchHighlightBackground": "#0F05",
+      "editor.selectionBackground": "#0000aa",
+      "editor.selectionHighlightBorder": "#00ff006c"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[SynthWave '84]": {
+      "textMateRules": [
+        {
+          "scope": ["string.quoted", "string.quoted.double.json.comments"],
+          "settings": {
+            "foreground": "#F6ACFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "keyword.control",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["meta.function.js", "variable.other.readwrite.js", "variable.other.property.js", "variable.other"],
+          "settings": {
+            "foreground": "#80f0fc",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["variable.other.object.js", "variable.other.constant.js"],
+          "settings": {
+            "foreground": "#72f1b8",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["support.variable.property.js"],
+          "settings": {
+            "foreground": "#ff7700",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "meta.object-literal.key.js",
+          "settings": {
+            "foreground": "#ffd1b9",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["meta.brace.round.js", "meta.brace.square.js"],
+          "settings": {
+            "foreground": "#FFFD77",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["constant.language.boolean.true.js", "constant.language.boolean.false.js"],
+          "settings": {
+            "foreground": "#ffffff",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "parameter",
+          "scope": "variable.parameter",
+          "settings": {
+            "foreground": "#ffcf4d",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "keyword.operator.expression.typeof.js",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "constant.language.null.js",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "keyword.operator.increment.js",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "keyword.operator.decrement.js",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "keyword.operator.unary.js",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "keyword.operator.new.js",
+          "settings": {
+            "foreground": "#FFFFFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "variable.other.object.property.js",
+          "settings": {
+            "foreground": "#faba4c",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "punctuation.accessor.js",
+          "settings": {
+            "foreground": "#fff86e",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "punctuation.terminator.statement.js",
+          "settings": {
+            "foreground": "#72f1b8",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "constant.numeric.decimal.js",
+          "settings": {
+            "foreground": "#72f1b8",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": ["string.quoted.single.js", "string.quoted.double.js"],
+          "settings": {
+            "foreground": "#F6ACFF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "C++ operators",
+          "scope": ["source.cpp keyword.operator", "punctuation.separator.namespace.access.cpp"],
+          "settings": {
+            "foreground": "#ffc978"
+          }
+        },
+        {
+          "scope": "variable.other.property.cpp",
+          "settings": {
+            "foreground": "#71f0fe",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "meta.block.cpp",
+          "settings": {
+            "foreground": "#d3ff8c",
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+  "editor.minimap.maxColumn": 120,
+  "js/ts.implicitProjectConfig.experimentalDecorators": false,
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 50000
+  },
+  "gitlens.autolinks": [
+    {
+      "prefix": "OLRE-",
+      "url": "https://orglab.atlassian.net/browse/OLRE-<num>"
+    }
+  ]
+}
