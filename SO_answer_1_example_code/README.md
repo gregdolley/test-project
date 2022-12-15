@@ -10,9 +10,32 @@ To see the output of this code, just start a new CodePen or JSFiddle, and copy t
 
 First install this project's dependencies via Yarn. From the root folder of this project, run the command:
 
-    project_root/:~$ yarn install
+    yarn install
 
 Now go back into this README's directory and run Node on the index.js file:
 
-    cd ./SO_answer_1_example_code
+    cd ./SO_answer_1_example_code/
     node index.js
+
+The output will look something like this:
+
+    {
+    <span class="key">"nodeType":</span> <span class="number">9</span>,
+    <span class="key">"nodeName":</span> <span class="string">"#document"</span>,
+    <span class="key">"childNodes":</span> [
+        {
+            <span class="key">"nodeType":</span> <span class="number">1</span>,
+            <span class="key">"tagName":</span> <span class="string">"html"</span>,
+            <span class="key">"attributes":</span> [],
+            <span class="key">"childNodes":</span> [
+                {
+                    <span class="key">"nodeType":</span> <span class="number">1</span>,
+                    <span class="key">"tagName":</span> <span class="string">"body"</span>,
+                    <span class="key">"attributes":</span> [],
+                    <span class="key">"childNodes":</span> []
+                }
+            ]
+        }
+    ]
+
+}
