@@ -8,17 +8,24 @@ To see the output of this code, just start a new CodePen or JSFiddle, and copy t
 
 ## To Run From The Command-Line Via Node
 
+You will need Node v14.0.0 or greater to run from the command line. Earlier versions will give you syntax errors.
+
 First install this project's dependencies via Yarn. From the root folder of this project, run the command:
 
+```bash
     yarn install
+```
 
 Now go back into this README's directory and run Node on the index.js file:
 
+```bash
     cd ./SO_answer_1_example_code/
     node index.js
+```
 
 The output will look something like this:
 
+```bash
     {
     <span class="key">"nodeType":</span> <span class="number">9</span>,
     <span class="key">"nodeName":</span> <span class="string">"#document"</span>,
@@ -37,5 +44,5 @@ The output will look something like this:
             ]
         }
     ]
-
 }
+```
