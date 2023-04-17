@@ -227,5 +227,9 @@
       "prefix": "OLRE-",
       "url": "https://orglab.atlassian.net/browse/OLRE-<num>"
     }
-  ]
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
 }
