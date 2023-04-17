@@ -7,5 +7,15 @@
     "not ie 11",
     "not and_ff <= 109",
     "not firefox <= 109"
-  ]
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
+    "meta-viewport": "off"
+  }
 }
